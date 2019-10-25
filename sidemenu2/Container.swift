@@ -12,18 +12,23 @@ import UIKit
 
 class Container: UIViewController  , SideMenuDelegate {
     
-    func ShowHome() {
+    
+    @IBOutlet weak var ContinerView1: UIView!
+    @IBOutlet weak var sideMenuConstraints: NSLayoutConstraint!
+
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
+    }
+
+    
+    func ShowHome() {
         UIView.animate(withDuration: 0.5) {
-            
             self.sideMenuConstraints.constant = 0
             self.view.layoutIfNeeded()
         }
     }
-    
-    @IBOutlet weak var ContinerView1: UIView!
-    
- 
     
            // (2)
     
@@ -37,8 +42,6 @@ class Container: UIViewController  , SideMenuDelegate {
         
     }
     
-
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "gotoHome" {
             let des = segue.destination as! HomeVC
@@ -51,11 +54,6 @@ class Container: UIViewController  , SideMenuDelegate {
     }
     
     
-    @IBOutlet weak var sideMenuConstraints: NSLayoutConstraint!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-     //   home?.delegate = self
-    }
 
     
     

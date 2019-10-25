@@ -16,19 +16,12 @@ class HomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-       
     }
     
 
     @IBAction func GoToSideMenu(_ sender: Any) {
         //    (4)
-        
-        UIView.animate(withDuration: 0.5) {
-            self.view.layoutIfNeeded()
-        }
         delegate?.ShowSideMenu()
-        
-        print("yes")
     }
     
 }

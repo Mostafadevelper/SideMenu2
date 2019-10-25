@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4F76D1492363196400228A5D /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F76D1482363196400228A5D /* SideMenuVC.swift */; };
+		4F79B34823632F54002867A9 /* Settting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F79B34723632F54002867A9 /* Settting.swift */; };
 		4FE63CBB23622E1400D5D122 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE63CBA23622E1400D5D122 /* AppDelegate.swift */; };
 		4FE63CBD23622E1400D5D122 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE63CBC23622E1400D5D122 /* Container.swift */; };
 		4FE63CC023622E1400D5D122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE63CBE23622E1400D5D122 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		4F76D1482363196400228A5D /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		4F79B34723632F54002867A9 /* Settting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settting.swift; sourceTree = "<group>"; };
 		4FE63CB723622E1400D5D122 /* sidemenu2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sidemenu2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE63CBA23622E1400D5D122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FE63CBC23622E1400D5D122 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				4FE63CC123622E1800D5D122 /* Assets.xcassets */,
 				4FE63CC323622E1800D5D122 /* LaunchScreen.storyboard */,
 				4FE63CC623622E1800D5D122 /* Info.plist */,
+				4F79B34723632F54002867A9 /* Settting.swift */,
 			);
 			path = sidemenu2;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FE63CCD236230BA00D5D122 /* HomeVC.swift in Sources */,
+				4F79B34823632F54002867A9 /* Settting.swift in Sources */,
 				4FE63CBD23622E1400D5D122 /* Container.swift in Sources */,
 				4FE63CBB23622E1400D5D122 /* AppDelegate.swift in Sources */,
 				4FE63CCF2362310100D5D122 /* Protocolos.swift in Sources */,
